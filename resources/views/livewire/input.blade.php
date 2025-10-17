@@ -10,7 +10,7 @@
         id="{{ $id }}"
         name="{{ $name }}"
         wire:model="value"
-        class="border-1 rounded-md border-gray-400 py-1 px-2 shadow outline-0"
+        class="border rounded-md border-gray-200 py-1 px-2 shadow outline-none"
         placeholder="{{ $placeholder }}"
         @if($required) required @endif
     >
